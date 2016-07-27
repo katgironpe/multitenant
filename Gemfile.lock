@@ -123,6 +123,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    refills (0.1.0)
     rspec-core (3.5.0.beta4)
       rspec-support (= 3.5.0.beta4)
     rspec-expectations (3.5.0.beta4)
@@ -193,6 +194,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.0)
   rails (~> 5.0.0)
+  refills
   rspec-rails (~> 3.5.0.beta4)
   sass-rails (~> 5.0)
   shoulda-matchers
