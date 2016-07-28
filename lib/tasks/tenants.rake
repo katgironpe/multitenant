@@ -4,9 +4,8 @@ namespace :tenants do
   task create: :environment do
     # Create tenants based on companies
     Company.all.each do |company|
-      name = company.name.downcase
-      Apartment::Tenant.create(name)
-      puts "Created #{name} tenant"
+      Apartment::Tenant.create(company.subdomain)
+      puts "Created #{company.subdomain} tenant"
     end
   end
 end
