@@ -5,8 +5,11 @@ class CreateCompanies < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :location
       t.text :body
+      t.string :subdomain
 
       t.timestamps
     end
+
+    add_index :companies, :subdomain
   end
 end
