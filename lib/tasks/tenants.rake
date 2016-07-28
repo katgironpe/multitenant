@@ -5,7 +5,7 @@ namespace :tenants do
     # Create tenants based on companies
     Company.all.each do |company|
       name = company.name.downcase
-      Apartment::Database.create(name)
+      Apartment::Tenant.create(name)
       puts "Created #{name} tenant"
     end
   end
