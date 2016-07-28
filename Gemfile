@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'apartment'
+gem 'apartment', github: 'influitive/apartment', branch: 'br/rails5'
 gem 'coffee-rails', '~> 4.2'
+gem 'devise', '~> 4.1'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'pg', '~> 0.18'
@@ -26,5 +27,6 @@ end
 group :test do
   gem 'factory_girl_rails', '~> 4.7.0'
   gem 'rspec-rails', '~> 3.5.0.beta4'
+  gem 'rails-controller-testing'
   gem 'shoulda-matchers'
 end

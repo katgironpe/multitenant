@@ -1,24 +1,12 @@
-# README
+# Multitenant Rails 5 example app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### Creating Tenants
 
-* Ruby version
+Based on what others have taught, they use after_create callback to create tenants after a resource is created. Honestly, I don't want that. It's sort of going the path of having a FAT model.
 
-* System dependencies
+Use the rake task or some observer pattern to create the tenants.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rake -T tenants
+```
