@@ -6,6 +6,6 @@ end
 
 ## Company-specific seed for testing
 
-if ENV['DB'] == 'thinkful'
-  Post.create(title: 'This is a tenant post', body: 'Test body')
-end
+# if ENV['DB'] == 'thinkful'
+#  Post.create(title: 'This is a tenant post', body: 'Test body')
+# end

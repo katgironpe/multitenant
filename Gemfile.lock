@@ -1,9 +1,8 @@
 GIT
   remote: git://github.com/influitive/apartment.git
-  revision: 43ce407d200958ba680eaee7d5996dda0b09a856
-  branch: br/rails5
+  revision: 4bd9ed52d35dcbc9c59f8be3ddd53e54f09d7921
   specs:
-    apartment (1.1.0)
+    apartment (1.2.0)
       activerecord (>= 3.1.2, < 6.0)
       rack (>= 1.3.6)
 

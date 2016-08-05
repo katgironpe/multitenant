@@ -29,10 +29,11 @@ Apartment.configure do |config|
   # config.prepend_environment = true
   # config.append_environment = true
 
+  config.persistent_schemas = %w{uuid}
   # supply list of database names for migrations to run on
   config.tenant_names = lambda{ Company.pluck :subdomain }
 
-  config.excluded_models = ['User', 'Company']
+  config.excluded_models = ['User']
 end
 
 ##

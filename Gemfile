@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'apartment', github: 'influitive/apartment', branch: 'br/rails5'
+gem 'apartment', github: 'influitive/apartment'
 gem 'coffee-rails', '~> 4.2'
 gem 'devise', '~> 4.1'
 gem 'jbuilder', '~> 2.5'
