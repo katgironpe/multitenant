@@ -33,7 +33,7 @@ Apartment.configure do |config|
   # supply list of database names for migrations to run on
   config.tenant_names = lambda{ Company.pluck :subdomain }
 
-  config.excluded_models = ['User']
+  config.excluded_models = ['User', 'Company']
 end
 
 ##
